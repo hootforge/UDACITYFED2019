@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 360px){
+  .my-header{
+    width: 100%;
+
+}
+
+.logo-in-header{
+  background-image: url("little_owl.jpg");
+  background-repeat: no-repeat;
+    height: 320px;
+
+  }
+  .name-in-header{
+    font-family: 'Muli', sans-serif;
+    font-size: 2em;
+    width: 90%;
+
+  }
+
+  .main-image{
+    width: 100%;
+    height: auto;
+  }
+
+  .project-list{
+    width: 100%;
+
+  }
+  .placeholder {
+    width: 100%;
+
+  }
+
+  .project-item{
+    width: 100%;
+  }
+}
