@@ -1,32 +1,56 @@
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 769px) {
+
   .my-header{
     width: 100%;
+    display: flex;
   }
-  .logo-in-header{
-  background-image: url("little_owl.jpg");
-  background-repeat: no-repeat;
-    width: 20%;
+
+  .logo-in-header {
+    width: 25%;
+    height: auto;
   }
-  .name-in-header{
-    width: 75%;
+
+  .owl_logo {
+    width: 100%;
+    height: auto;
+    max-height: 414px;
+    max-width: 230px;
+  }
+
+  .name-in-header {
+    width: 73%;
     color: green;
     font-family: 'Muli', sans-serif;
-
+    text-align: right;
   }
 
-  .main-image{
+  .title-in-header {
+    font-family: 'crimson text', serif;
+  }
+
+  .main-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .thebigpicture {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-list {
+    align-content: center;
+    width: 100%;
+    display: flex;
+  }
+
+  .project-item {
+    width: 40%;
+  }
+
+  .placeholder {
     width: 100%;
   }
 
-  .project-list{
-
-  }
-  .placeholder {
-    width: 45px;
-  }
-
-  .project-item{
-    width: 33%;
-  }
 }

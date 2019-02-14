@@ -1,38 +1,50 @@
-
+/*css file for small-sized screens*/
 @media screen and (max-width: 360px){
+
   .my-header{
     width: 100%;
-
-}
-
-.logo-in-header{
-  background-image: url("little_owl.jpg");
-  background-repeat: no-repeat;
-    height: 320px;
-
   }
+
+  .logo-in-header{
+    width: 100%;
+    height: auto;
+  }
+
+  .owl_logo {
+    width: auto;
+    height: 180px;
+  }
+
   .name-in-header{
     font-family: 'Muli', sans-serif;
-    font-size: 2em;
-    width: 90%;
+    width: 100%;
+  }
 
+  .title-in-header{
+    font-family: 'crimson text', serif;
   }
 
   .main-image{
-    width: 100%;
+    width:100%;
+    height: auto;
+  }
+
+  .thebigpicture {
+    max-width: 100%;
     height: auto;
   }
 
   .project-list{
     width: 100%;
-
+    align-content: center;
   }
-  .placeholder {
-    width: 100%;
 
+  .placeholder{
+    width: 110px;
+    align-self: center;
   }
 
   .project-item{
     width: 100%;
-  }
+    }
 }

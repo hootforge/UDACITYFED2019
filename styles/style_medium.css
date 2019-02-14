@@ -1,38 +1,60 @@
 
-@media screen and (min-width: 361px) and (max-width: 768){
-  .my-header{
-    width: 100%;
-    height: auto;
-    order: 1;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .logo-in-header{
-  background-image: url("little_owl.jpg");
-  background-repeat: no-repeat;
-  width: 25%;
-  height: auto;
-  order: 1;
-  }
-  .name-in-header{
-    font-family: 'Muli', sans-serif;
-    align-self: flex-end;
-    width: 75%;
-    order: 2;
+/*css file for mid-sized screens*/
+
+ @media screen and (min-width:360px) and (max-width:769px) {
+   .my-header {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-wrap: nowrap;
+   }
+
+   .logo-in-header {
+     width: 25%;
+     height: auto;}
+
+   .owl_logo {
+     width: 100%;
+     height: auto;
+   }
+
+   .name-in-header{
+     font-family: 'Muli', sans-serif;
+     align-self: flex-end;
+     text-align: right;
+     color: red;
+     width: 75%;
+   }
+
+  .title-in-header{
+    font-family: 'crimson text', serif;
   }
 
   .main-image{
     width: 100%;
   }
 
-  .project-list{
-
+  .thebigpicture{
+    max-width: 100%;
+    height: auto;
   }
-  .placeholder {
-    width: 45px;
+
+  .project-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .placeholder{
+    width: 90%;
+    min-width: 160px;
+    height: auto;
+    align-content: center;
   }
 
   .project-item{
     width: 33%;
+    align-content: center;
+    }
   }
-}
