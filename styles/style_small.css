@@ -18,10 +18,17 @@
   .name-in-header{
     font-family: 'Muli', sans-serif;
     width: 100%;
+    color: orange;
+    font-weight: bolder;
   }
 
   .title-in-header{
     font-family: 'crimson text', serif;
+  }
+
+  .required-p {
+    font-weight: bold;
+    font-size: 12pt;
   }
 
   .main-image{

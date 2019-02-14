@@ -29,6 +29,11 @@
     font-family: 'crimson text', serif;
   }
 
+  .required-p {
+    font-weight: bold;
+    font-size: 16pt;
+  }
+  
   .main-image {
     max-width: 100%;
     height: auto;
